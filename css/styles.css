@@ -1,0 +1,12 @@
+/*
+colors used:
+primary color(black): #2f2d27;
+secondary color(yellow):#fce77a;
+*/
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height:1.6;
+    color:#2f2d27;}
