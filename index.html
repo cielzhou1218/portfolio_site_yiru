@@ -17,12 +17,12 @@
 
 <body>
     <header>
-        <div>
+        <div class="container">
             <div id="yz-logo">
                 <img src="img/yz_logo.png" alt="Logo"> 
             </div>
             <nav>
-             <ul>
+             <ul class="navigation">
                <li><a href="index.html">Work</a></li>
                <li><a href="about.html">About</a></li>
                <li><a href="#contact">Contact</a></li>
@@ -32,14 +32,17 @@
     </header>
     <main>
         <div> 
-            <div class="hero" id="hero-section">
+            <div id="hero">
+                <div class="container">
                 <h1>Hi, my name is Yiru.</h1>
                     <h1><span>I'm a UX designer based in Colorado!</span></h1>
+                </div>
             </div>
-            <div class="work" id="work-section">
-                <div>
+            <div id="work">
+                <div class="container">
                     <h2>My Work</h2>
                     <div>
+                        <div id="work" class="row">
                         <div>
                             <picture>
                                 <source srcset="img/expert-small/expert_cover.png" media="(max-width:767px)">
@@ -51,6 +54,8 @@
                             <p>Expert is a progressive web app that allows users to schedule 1:1 online chats with their chosen creative industry experts, as well as join a community of like-minded individuals.</p>
                             <a href="expert.html" class="button">View Project</a>
                         </div>
+                        </div>
+                        <div id="work" class="row">
                         <div>
                             <picture>
                                 <source srcset="img/expert-small/placeholder_project2_cover.png" media="(max-width:767px)">
@@ -62,13 +67,14 @@
                             <p>This is a placeholder project for now.</p>
                             <a href="#" class="button">View Project</a>
                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
     <footer id="contact">
-        <div>
+        <div class="container">
             <h2>Get in Touch</h2>
             <p>Contact me via Email, or simply connect with me on socials!</p>
             <div>
