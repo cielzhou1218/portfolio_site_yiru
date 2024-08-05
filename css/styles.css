@@ -3,6 +3,16 @@ colors used:
 primary color(black): #2f2d27;
 secondary color(yellow):#fce77a;
 */
+header{
+    background-color: #fce77a;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 3px solid #4a4a4a;
+}
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
@@ -78,3 +88,10 @@ a:active{
     background-color:#f7551a;
     color:#ffffff;
 }
+
+#yz-logo img{
+    width: 100px;
+    height: 100px;
+}
+
+/* Layout styling */
