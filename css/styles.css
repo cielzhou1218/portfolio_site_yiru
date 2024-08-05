@@ -5,9 +5,40 @@ secondary color(yellow):#fce77a;
 */
 header{
     background-color: #fce77a;
+    width: 100%;
     padding: 10px;
-    margin: 10px;
-    border-bottom: 3px solid #4a4a4a;
+    text-align: center;
+    box-shadow: 0 9px 25px #9e624c; 
+    position:fixed;
+}
+nav{
+    display: inline-block;
+    width: 100%;
+}
+nav>ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav>ul>li{
+    display: inline-block
+}
+nav>ul>li>a{
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+nav>ul>li>a:active{
+    color: #8a4207;
+}
+#hero{
+    background-color: #fce77a;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+main{
+    padding-top: 185.188px;
 }
 *{
     box-sizing: border-box;
@@ -92,6 +123,7 @@ a:active{
 #yz-logo img{
     width: 100px;
     height: 100px;
+    max-width: 250px;
 }
 
 /* Layout styling */
@@ -101,4 +133,10 @@ a:active{
 #work.row{
     margin: 25px 0;/* 25px top and bottom, 0 left and right */
     padding-bottom: 25px; border-bottom: 1px solid #4a4a4a; 
+}
+#hero h1{
+    text-align: center;
+}
+.center{
+    text-align: center;
 }
