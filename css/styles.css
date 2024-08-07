@@ -143,6 +143,12 @@ a:active{
 .center{
     text-align: center;
 }
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
 
 /* medium breakpoit (640px and larger) */
 @media only screen and (min-width: 640px){
@@ -161,17 +167,42 @@ main{
 body{
     font-size: 18px;
 }
+#hero span{
+    display: block;
+}
+
 .col-md-6{
     width: 50%;
+}
+
+#work h3{
+    margin-top:0;
+}
+#about-page h3{
+    margin-top:0;
 }
 }
 
 /* large breakpoint (1024px or larger) */
 @media only screen and (min-width: 1024px){
-
+.col-lg-7{
+    width: 58.33%;
+}
+.col-lg-5{
+    width: 41.66%;
+}
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 /* x-large breakpoint (1440px or larger) */
 @media only screen and (min-width: 1440px){
 
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
 }
