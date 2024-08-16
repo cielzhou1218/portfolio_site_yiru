@@ -7,21 +7,41 @@ header{
     background-color: #fce77a;
     width: 100%;
     padding: 10px;
-    text-align: center;
     box-shadow: 0 9px 25px #9e624c; 
     position:fixed;
 }
-nav{
-    display: inline-block;
-    width: 100%;
+.navtoggle.responsive nav{
+    padding: 24px 0 0;
+}
+
+.navtoggle li:not(:last-child){
+    display:none;
+}
+
+.navtoggle.responsive li{
+    display: block;
+    padding: 10px 0;
+    
+}
+.navtoggle.responsive li:last-child{
+    padding: 0 0 10px;
+}
+.navtoggle, .navtoggle.responsive{
+    position: relative;
+}
+.navtoggle li .icon{
+    position:absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+    padding-right: 0;
 }
 nav>ul{
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
-nav>ul>li{
-    display: inline-block
-}
+
 nav>ul>li>a{
     padding: 0 10px;
     text-transform: uppercase;
@@ -44,7 +64,7 @@ nav>ul>li>a:active{
     display: block;
 }
 main{
-    padding-top: 185.19px;
+    padding-top: 127.59px;
 }
 *{
     box-sizing: border-box;
@@ -129,7 +149,7 @@ a:active{
 #yz-logo {
     width: 100px;
     height: 100px;
-    max-width: 250px;
+    max-width: 150px;
 }
 #work.animation{
     width: 100%;
@@ -199,6 +219,18 @@ nav{
     width: auto;
     float: right;
     margin-top: 20px;
+}
+nav > ul {
+    margin: 1em 0;
+}
+nav>ul>li{
+    display: inline-block
+}
+.navtoggle li:not(:last-child){
+    display:inline-block;
+}
+.navtoggle li:last-child {
+    display: none;
 }
 main{
     padding-top: 140.59px;
