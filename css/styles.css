@@ -156,7 +156,21 @@ a:active{
     max-width: 100%;
     height: auto;
 }
-
+#tools{
+    padding-left: 150px;
+}
+#skills{
+    padding-left: 150px;
+}
+#contact{
+    padding-top: 100px;
+}
+#bio{
+    padding-top: 50px;
+}
+#skills-tools{
+    padding-top: 50px;
+}
 /* Layout styling */
 .container{
     padding: 0 15px;
