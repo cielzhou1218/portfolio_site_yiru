@@ -1,339 +1,572 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Yiru Zhou" />
+    <meta
+      name="description"
+      content="A portfolio site that showcases my UX/UI design case studies"
+    />
+    <title>Expert project</title>
+    <link href="img/favicon.ico" rel="shortcut icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/af41ef86b5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Yiru Zhou">
-    <meta name="description" content="A portfolio site that showcases my UX/UI design case studies">
-        <title>Expert project</title>
-        <link href="img/favicon.ico" rel="shortcut icon">
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <script src="https://kit.fontawesome.com/af41ef86b5.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="container">
-            <div class="navtoggle" id="myNavtoggle"> 
-                <img id="yz-logo" src="img/yz_logo.png" alt="Logo"> 
-           
-            <nav>
-             <ul class="navigation">
-               <li><a href="index.html">Home</a></li>
-               <li><a href="about.html">About</a></li>
-               <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-               <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-             </ul>
-            </nav> 
-            </div>
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <img id="yz-logo" src="img/yz_logo.png" alt="Logo" />
+
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
         </div>
+      </div>
     </header>
 
     <main>
-       <div>
+      <div>
         <div id="case-study">
-            <div class="container">
-             <h1>Expert Web App</h1>
-             <div>
-                <picture>
-                    <source srcset="img/expert-small/expert_cover.png" media="(max-width:767px)">
-                    <img src="img/expert-large/expert_cover-1200.png" alt="Expert Cover">
-                </picture>
-             </div>
-             <div>
-                <p>Expert is a progressive web app that allows users to schedule 1:1 online chats with their chosen creative industry experts, as well as join a community of like-minded individuals.</p>
-                <a href="https://www.figma.com/proto/xwERnipbvZeWcMZsfHUnlU/Expert-Design-File?node-id=789-2159&t=quizBkknvdGDOr0E-1&scaling=scale-down&content-scaling=fixed&page-id=789%3A1700&starting-point-node-id=789%3A2623&show-proto-sidebar=1" target="_blank" class="button">View Prototype</a>
-             </div>
+          <div class="container">
+            <h1>Expert Web App</h1>
+            <div>
+              <picture>
+                <source
+                  srcset="img/expert-small/expert_cover.png"
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="img/expert-large/expert_cover-1200.png"
+                  alt="Expert Cover"
+                />
+              </picture>
+            </div>
+            <div>
+              <p>
+                Expert is a progressive web app that allows users to schedule
+                1:1 online chats with their chosen creative industry experts, as
+                well as join a community of like-minded individuals.
+              </p>
+              <a
+                href="https://www.figma.com/proto/xwERnipbvZeWcMZsfHUnlU/Expert-Design-File?node-id=789-2159&t=quizBkknvdGDOr0E-1&scaling=scale-down&content-scaling=fixed&page-id=789%3A1700&starting-point-node-id=789%3A2623&show-proto-sidebar=1"
+                target="_blank"
+                class="button"
+                >View Prototype</a
+              >
+            </div>
 
-             <section class="table-contents" id="expert-table-contents">
+            <section class="table-contents" id="expert-table-contents">
               <div>
                 <h2>Table of Contents</h2>
                 <div>
-                    <ul>
-                        <li><a href="#expert-problem">Problem Statement</a></li>
-                        <li><a href="#expert-background">Project Background</a></li>
-                        <li><a href="#expert-research">Research</a></li>
-                        <li><a href="#expert-concept">The Concept</a></li>
-                        <li><a href="#expert-information-architecture">Information Architecture</a></li>
-                        <li><a href="#expert-design-testing">Designs and Testings</a></li>
-                        <li><a href="#expert-outcomes-results">Outcomes & Results</a></li>
-                        <li><a href="#expert-moving-forward">Moving Forward</a></li>
-                    </ul>
+                  <ul>
+                    <li><a href="#expert-problem">Problem Statement</a></li>
+                    <li><a href="#expert-background">Project Background</a></li>
+                    <li><a href="#expert-research">Research</a></li>
+                    <li><a href="#expert-concept">The Concept</a></li>
+                    <li>
+                      <a href="#expert-information-architecture"
+                        >Information Architecture</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#expert-design-testing">Designs and Testings</a>
+                    </li>
+                    <li>
+                      <a href="#expert-outcomes-results"
+                        >Outcomes and Results</a
+                      >
+                    </li>
+                    <li><a href="#expert-moving-forward">Moving Forward</a></li>
+                  </ul>
                 </div>
               </div>
-             </section>
+            </section>
 
-             <section class="problem-statement" id="expert-problem">
+            <section class="problem-statement" id="expert-problem">
               <div>
                 <h2>The Problem</h2>
-                <p>People who are starting career in the creative industry need a credible platform where they have options to connect with experts through video calls to discuss more in-depth topics, as well as ask quick questions and have them answered in a timely fashion. Because they want more flexibility in the ways they get expert advice.</p>
+                <p>
+                  People who are starting career in the creative industry need a
+                  credible platform where they have options to connect with
+                  experts through video calls to discuss more in-depth topics,
+                  as well as ask quick questions and have them answered in a
+                  timely fashion. Because they want more flexibility in the ways
+                  they get expert advice.
+                </p>
               </div>
               <div>
                 <a href="#expert-table-contents">back to table</a>
               </div>
-             </section>
-              
-             <section class="project-background" id="expert-background">
-                <div>
-                    <h2>The Background</h2>
-                    <div>
-                        <picture>
-                            <source srcset="img/expert-small/project_background.png" media="(max-width:767px)">
-                            <img src="img/expert-large/project_background-1200.png" alt="project background">
-                        </picture>
-                    </div>
-                </div>
-                <div>
-                    <a href="#expert-table-contents">back to table</a>
-                  </div>
-             </section>
+            </section>
 
-             <section class="research" id="expert-research">
-                <div>
-                    <h2>Research</h2>
-                    <div>
-                    <picture>
-                        <source srcset="img/expert-small/market_research.png" media="(max-width:767px)">
-                        <img src="img/expert-large/market_research-1200.png" alt="market research">
-                    </picture>
-                    </div>
-                    <div>
-                        <picture>
-                            <source srcset="img/expert-small/market_insight.png" media="(max-width:767px)">
-                            <img src="img/expert-large/market_insight-1200.png" alt="market insights">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture>
-                            <source srcset="img/expert-small/interview_insight.png" media="(max-width:767px)">
-                            <img src="img/expert-large/interview_insight-1200.png" alt="interview insights">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture>
-                            <source srcset="img/expert-small/interview_analysis.png" media="(max-width:767px)">
-                            <img src="img/expert-large/interview_analysis-1200.png" alt="interview analysis">
-                        </picture>
-                    </div>
-                    <div>
-                        <picture>
-                            <source srcset="img/expert-small/user_persona_1.png" media="(max-width:767px)">
-                            <img src="img/expert-large/user_persona_1-1200.png" alt="user persona 1">   
-                        </picture>
-                    </div>
-                    <div>
-                        <picture>
-                            <source srcset="img/expert-small/user-persona-2.png" media="(max-width:767px)">
-                            <img src="img/expert-large/user-persona-2_1200.png" alt="user persona 2">   
-                        </picture> 
-                    </div>
-                </div>
-                <div>
-                    <a href="#expert-table-contents">back to table</a>
-                  </div>
-             </section>
-
-             <section class="concept" id="expert-concept">
+            <section class="project-background" id="expert-background">
               <div>
+                <h2>The Background</h2>
                 <div>
-                <h2>The Concept</h2>
-                <p>A progressive web app that allows users to schedule 1:1 online chats with their chosen creative-industry experts, as well as post questions to a community of like-minded individuals.</p>
-                </div>
-                <div>
-                    <h3>Why a progressive web app?</h3>
-                    <p>
-                        It is essential to have access to the app on both desktop and mobile, as video chat experience may be better on desktop, and quick, on-the-go actions can be taken on mobile device.
-                    </p>
-                </div>
-                <div>
-                    <h3>Why 1:1 online chat?</h3>
-                    <p>
-                        Users may need in-depth conversations with an expert of their choice, some questions cannot be answered in written form due to difficulty in communication, and 1:1 chat can help eliminate mis-understandings and provide clarity.
-                    </p>
-                </div>
-                <div>
-                    <h3>Why online forums?</h3>
-                    <p>
-                        Online forums allows users to post quick questions such as technical and certain consensus that can be easily answered in a timely manner, so that the users don't have to schedule a paid service every time when they need help from others in the field.
-                    </p>
-                </div>
-                <div>
-                    <picture>
-                        <source srcset="img/expert-small/elements.png" media="(max-width:767px)">
-                        <img src="img/expert-large/elements-1200.png" alt="feature elements">   
-                    </picture> 
+                  <picture>
+                    <source
+                      srcset="img/expert-small/project_background.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/expert-large/project_background-1200.png"
+                      alt="project background"
+                    />
+                  </picture>
                 </div>
               </div>
               <div>
                 <a href="#expert-table-contents">back to table</a>
               </div>
-             </section>
-            
-             <section class="information-architecture" id="expert-information-architecture">
+            </section>
+
+            <section class="research" id="expert-research">
+              <div>
+                <h2>Research</h2>
                 <div>
-                    <h2>Information Architecture</h2>
-                    <div>
-                        <h3>User Flows</h3>
-                        <div>
-                            <picture>
-                                <source srcset="img/expert-small/user-flow_1.png" media="(max-width:767px)">
-                                <img src="img/expert-large/user-flow_1-1200.png" alt="user flow 1">   
-                            </picture> 
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/expert-small/user_flow_2.png" media="(max-width:767px)">
-                                <img src="img/expert-large/user_flow_2-1200.png" alt="user flow 2">   
-                            </picture> 
-                        </div>
-                        <div>
-                            <h3>Site Map</h3>
-                            <p>I was able to construct 1 mobile site map based on the user flows.</p>
-                        </div>
-                        <div>
-                            <h3>Origninal</h3>
-                        <div>
-                            <picture>
-                                <source srcset="img/expert-small/sitemap_original.png" media="(max-width:767px)">
-                                <img src="img/expert-large/sitemap_original-1200.png" alt="original sitemap">   
-                            </picture> 
-                        </div>
-                        </div>
-                        <div>
-                            <h3>Card Sorting</h3>
-                            <p>To remove designer bias, I conducted an upen card sorting with 7 participants.</p>
-                            <div>
-                                <picture>
-                                    <source srcset="img/expert-small/cardsorting_analysis.png" media="(max-width:767px)">
-                                    <img src="img/expert-large/cardsorting_analysis-1200.png" alt="card sorting chart">   
-                                </picture> 
-                            </div>
-                        </div>
-                        <div>
-                            <h3>Refined Site Map</h3>
-                            <p>The card sorting shows that most users prefer a more specific categorization for "Expert,"Forum" and "Courses" instead of having them in one place under "Connect".</p>
-                            <div>
-                                <picture>
-                                    <source srcset="img/expert-small/sitemap_refined.png" media="(max-width:767px)">
-                                    <img src="img/expert-large/sitemap_refined-1200.png" alt="refined sitemap">   
-                                </picture>   
-                            </div>
-                        </div>
-                    </div>
+                  <picture>
+                    <source
+                      srcset="img/expert-small/market_research.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/expert-large/market_research-1200.png"
+                      alt="market research"
+                    />
+                  </picture>
                 </div>
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/expert-small/market_insight.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/expert-large/market_insight-1200.png"
+                      alt="market insights"
+                    />
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/expert-small/interview_insight.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/expert-large/interview_insight-1200.png"
+                      alt="interview insights"
+                    />
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/expert-small/interview_analysis.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/expert-large/interview_analysis-1200.png"
+                      alt="interview analysis"
+                    />
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/expert-small/user_persona_1.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/expert-large/user_persona_1-1200.png"
+                      alt="user persona 1"
+                    />
+                  </picture>
+                </div>
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/expert-small/user-persona-2.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/expert-large/user-persona-2_1200.png"
+                      alt="user persona 2"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div>
+                <a href="#expert-table-contents">back to table</a>
+              </div>
+            </section>
+
+            <section class="concept" id="expert-concept">
+              <div>
+                <div>
+                  <h2>The Concept</h2>
+                  <p>
+                    A progressive web app that allows users to schedule 1:1
+                    online chats with their chosen creative-industry experts, as
+                    well as post questions to a community of like-minded
+                    individuals.
+                  </p>
+                </div>
+                <div>
+                  <h3>Why a progressive web app?</h3>
+                  <p>
+                    It is essential to have access to the app on both desktop
+                    and mobile, as video chat experience may be better on
+                    desktop, and quick, on-the-go actions can be taken on mobile
+                    device.
+                  </p>
+                </div>
+                <div>
+                  <h3>Why 1:1 online chat?</h3>
+                  <p>
+                    Users may need in-depth conversations with an expert of
+                    their choice, some questions cannot be answered in written
+                    form due to difficulty in communication, and 1:1 chat can
+                    help eliminate mis-understandings and provide clarity.
+                  </p>
+                </div>
+                <div>
+                  <h3>Why online forums?</h3>
+                  <p>
+                    Online forums allows users to post quick questions such as
+                    technical and certain consensus that can be easily answered
+                    in a timely manner, so that the users don't have to schedule
+                    a paid service every time when they need help from others in
+                    the field.
+                  </p>
+                </div>
+                <div>
+                  <picture>
+                    <source
+                      srcset="img/expert-small/elements.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/expert-large/elements-1200.png"
+                      alt="feature elements"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div>
+                <a href="#expert-table-contents">back to table</a>
+              </div>
+            </section>
+
+            <section
+              class="information-architecture"
+              id="expert-information-architecture"
+            >
+              <div>
+                <h2>Information Architecture</h2>
+                <div>
+                  <h3>User Flows</h3>
                   <div>
-                    <a href="#expert-table-contents">back to table</a>
+                    <picture>
+                      <source
+                        srcset="img/expert-small/user-flow_1.png"
+                        media="(max-width:767px)"
+                      />
+                      <img
+                        src="img/expert-large/user-flow_1-1200.png"
+                        alt="user flow 1"
+                      />
+                    </picture>
                   </div>
-             </section>
+                  <div>
+                    <picture>
+                      <source
+                        srcset="img/expert-small/user_flow_2.png"
+                        media="(max-width:767px)"
+                      />
+                      <img
+                        src="img/expert-large/user_flow_2-1200.png"
+                        alt="user flow 2"
+                      />
+                    </picture>
+                  </div>
+                  <div>
+                    <h3>Site Map</h3>
+                    <p>
+                      I was able to construct 1 mobile site map based on the
+                      user flows.
+                    </p>
+                  </div>
+                  <div>
+                    <h3>Origninal</h3>
+                    <div>
+                      <picture>
+                        <source
+                          srcset="img/expert-small/sitemap_original.png"
+                          media="(max-width:767px)"
+                        />
+                        <img
+                          src="img/expert-large/sitemap_original-1200.png"
+                          alt="original sitemap"
+                        />
+                      </picture>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>Card Sorting</h3>
+                    <p>
+                      To remove designer bias, I conducted an upen card sorting
+                      with 7 participants.
+                    </p>
+                    <div>
+                      <picture>
+                        <source
+                          srcset="img/expert-small/cardsorting_analysis.png"
+                          media="(max-width:767px)"
+                        />
+                        <img
+                          src="img/expert-large/cardsorting_analysis-1200.png"
+                          alt="card sorting chart"
+                        />
+                      </picture>
+                    </div>
+                  </div>
+                  <div>
+                    <h3>Refined Site Map</h3>
+                    <p>
+                      The card sorting shows that most users prefer a more
+                      specific categorization for "Expert,"Forum" and "Courses"
+                      instead of having them in one place under "Connect".
+                    </p>
+                    <div>
+                      <picture>
+                        <source
+                          srcset="img/expert-small/sitemap_refined.png"
+                          media="(max-width:767px)"
+                        />
+                        <img
+                          src="img/expert-large/sitemap_refined-1200.png"
+                          alt="refined sitemap"
+                        />
+                      </picture>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <a href="#expert-table-contents">back to table</a>
+              </div>
+            </section>
 
-             <section class="design-testing" id="expert-design-testing">
+            <section class="design-testing" id="expert-design-testing">
+              <div>
+                <h2>Design and Testing</h2>
                 <div>
-                    <h2>Design and Testing</h2>
-                    <div>
-                        <h3>Low-fidelity Sketches</h3>
-                        <p>With my user flows and site maps, I created low-fidelity skethces of the Expert's main screens.</p>
-                        <div>
-                            <picture>
-                                <source srcset="img/expert-small/lo-fi_wireframes.png" media="(max-width:767px)">
-                                <img src="img/expert-large/lo-fi_wireframes-1200.png" alt="lo-fi sketches">   
-                            </picture>   
-                        </div>
-                    </div>
-                    <div>
-                        <h3>Usability Testing</h3>
-                        <p>With my digital prototype, I conducted 6 in-person moderated usability testings with participants aged 22-40. The three main tasks are as followed:</p>
-                        <div>
-                            <picture>
-                                <source srcset="img/expert-small/usertesting_conclusion.png" media="(max-width:767px)">
-                                <img src="img/expert-large/usertesting_conclusion-1200.png" alt="user testing conclusion">   
-                            </picture>   
-                        </div>
-                        <div>
-                            <picture>
-                                <source srcset="img/expert-small/usertesting_analysis.png" media="(max-width:767px)">
-                                <img src="img/expert-large/usertesting_analysis-1200.png" alt="user testing analysis">   
-                            </picture>   
-                        </div>
-                    </div>
-                    <div>
-                        <h3>High-fidelity Designs</h3>
-                        <p>
-                            After the testing, I have improved the design based on the feedback and observations made during the tests, as well as add colors and characters to the design following the material design framework.
-                        </p>
-                        <div>
-                            <picture>
-                                <source srcset="img/expert-small/hi-fi_wireframes.png" media="(max-width:767px)">
-                                <img src="img/expert-large/hi-fi_wireframes-1200.png" alt="high-fidelity wireframes">   
-                            </picture>   
-                        </div>
-                    </div>
+                  <h3>Low-fidelity Sketches</h3>
+                  <p>
+                    With my user flows and site maps, I created low-fidelity
+                    skethces of the Expert's main screens.
+                  </p>
+                  <div>
+                    <picture>
+                      <source
+                        srcset="img/expert-small/lo-fi_wireframes.png"
+                        media="(max-width:767px)"
+                      />
+                      <img
+                        src="img/expert-large/lo-fi_wireframes-1200.png"
+                        alt="lo-fi sketches"
+                      />
+                    </picture>
+                  </div>
                 </div>
                 <div>
-                    <a href="#expert-table-contents">back to table</a>
+                  <h3>Usability Testing</h3>
+                  <p>
+                    With my digital prototype, I conducted 6 in-person moderated
+                    usability testings with participants aged 22-40. The three
+                    main tasks are as followed:
+                  </p>
+                  <div>
+                    <picture>
+                      <source
+                        srcset="img/expert-small/usertesting_conclusion.png"
+                        media="(max-width:767px)"
+                      />
+                      <img
+                        src="img/expert-large/usertesting_conclusion-1200.png"
+                        alt="user testing conclusion"
+                      />
+                    </picture>
                   </div>
-             </section>
-
-             <section class="outcomes-results" id="expert-outcomes-results">
-                <div>
-                    <h2>Outcomes & Results</h2>
-                    <p>Though this project is conceptual, I would look for the following outcomes and results:</p>
-                    <div>
-                        <picture>
-                            <source srcset="img/expert-small/outcomes.png" media="(max-width:767px)">
-                            <img src="img/expert-large/outcomes-1200.png" alt="outcomes">   
-                        </picture>    
-                    </div>
+                  <div>
+                    <picture>
+                      <source
+                        srcset="img/expert-small/usertesting_analysis.png"
+                        media="(max-width:767px)"
+                      />
+                      <img
+                        src="img/expert-large/usertesting_analysis-1200.png"
+                        alt="user testing analysis"
+                      />
+                    </picture>
+                  </div>
                 </div>
                 <div>
-                    <a href="#expert-table-contents">back to table</a>
+                  <h3>High-fidelity Designs</h3>
+                  <p>
+                    After the testing, I have improved the design based on the
+                    feedback and observations made during the tests, as well as
+                    add colors and characters to the design following the
+                    material design framework.
+                  </p>
+                  <div>
+                    <picture>
+                      <source
+                        srcset="img/expert-small/hi-fi_wireframes.png"
+                        media="(max-width:767px)"
+                      />
+                      <img
+                        src="img/expert-large/hi-fi_wireframes-1200.png"
+                        alt="high-fidelity wireframes"
+                      />
+                    </picture>
                   </div>
-             </section>
-
-             <section class="moving-forward" id="expert-moving-forward">
-                <div>
-                    <h2>Moving Forward</h2>
-                    <p>I would like to improve the experience by conducting the following actions:</p>
-                    <div>
-                        <ol>
-                            <li>Add the checkout process.</li>
-                            <li>Design for desktop.</li>
-                            <li>Iterate the forum feature.</li>
-                            <li>Explore blog posts and resources feature and its best practices.</li>
-                            <li>Conduct A/B testings for the scheduling process.</li>
-                        </ol>
-                    </div>
                 </div>
+              </div>
+              <div>
+                <a href="#expert-table-contents">back to table</a>
+              </div>
+            </section>
+
+            <section class="outcomes-results" id="expert-outcomes-results">
+              <div>
+                <h2>Outcomes and Results</h2>
+                <p>
+                  Though this project is conceptual, I would look for the
+                  following outcomes and results:
+                </p>
                 <div>
-                    <a href="#expert-table-contents">back to table</a>
-                  </div>
-             </section>
-            </div>
+                  <picture>
+                    <source
+                      srcset="img/expert-small/outcomes.png"
+                      media="(max-width:767px)"
+                    />
+                    <img
+                      src="img/expert-large/outcomes-1200.png"
+                      alt="outcomes"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div>
+                <a href="#expert-table-contents">back to table</a>
+              </div>
+            </section>
+
+            <section class="moving-forward" id="expert-moving-forward">
+              <div>
+                <h2>Moving Forward</h2>
+                <p>
+                  I would like to improve the experience by conducting the
+                  following actions:
+                </p>
+                <div>
+                  <ol>
+                    <li>Add the checkout process.</li>
+                    <li>Design for desktop.</li>
+                    <li>Iterate the forum feature.</li>
+                    <li>
+                      Explore blog posts and resources feature and its best
+                      practices.
+                    </li>
+                    <li>Conduct A/B testings for the scheduling process.</li>
+                  </ol>
+                </div>
+              </div>
+              <div>
+                <a href="#expert-table-contents">back to table</a>
+              </div>
+            </section>
+          </div>
         </div>
-       </div> 
+      </div>
     </main>
 
     <footer id="contact">
-        <div class="container center">
-            <h2>Get in Touch</h2>
-            <p>Contact me via Email, or simply connect with me on socials!</p>
-            <div>
-                <a href="mailto:yiruzhou1218@gmail.com" class="button contact">Email me</a>
-            </div>
-            <div >
-                <a href="https://www.linkedin.com/in/yiru-ru-zhou-71b99767/" target="_blank"> 
-                    <svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><path d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"/><path d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"/></g></svg>
-                </a>
-            </div>
-            <p >@ 2024 Yiru Zhou. All rights reserved.</p>
+      <div class="container center">
+        <h2>Get in Touch</h2>
+        <p>Contact me via Email, or simply connect with me on socials!</p>
+        <div>
+          <a href="mailto:yiruzhou1218@gmail.com" class="button contact"
+            >Email me</a
+          >
         </div>
+        <div>
+          <a
+            href="https://www.linkedin.com/in/yiru-ru-zhou-71b99767/"
+            target="_blank"
+          >
+            <svg
+              enable-background="new 0 0 56.693 56.693"
+              height="56.693px"
+              id="Layer_1"
+              version="1.1"
+              viewBox="0 0 56.693 56.693"
+              width="56.693px"
+              xml:space="preserve"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <g>
+                <path
+                  d="M30.071,27.101v-0.077c-0.016,0.026-0.033,0.052-0.05,0.077H30.071z"
+                />
+                <path
+                  d="M49.265,4.667H7.145c-2.016,0-3.651,1.596-3.651,3.563v42.613c0,1.966,1.635,3.562,3.651,3.562h42.12   c2.019,0,3.654-1.597,3.654-3.562V8.23C52.919,6.262,51.283,4.667,49.265,4.667z M18.475,46.304h-7.465V23.845h7.465V46.304z    M14.743,20.777h-0.05c-2.504,0-4.124-1.725-4.124-3.88c0-2.203,1.67-3.88,4.223-3.88c2.554,0,4.125,1.677,4.175,3.88   C18.967,19.052,17.345,20.777,14.743,20.777z M45.394,46.304h-7.465V34.286c0-3.018-1.08-5.078-3.781-5.078   c-2.062,0-3.29,1.389-3.831,2.731c-0.197,0.479-0.245,1.149-0.245,1.821v12.543h-7.465c0,0,0.098-20.354,0-22.459h7.465v3.179   c0.992-1.53,2.766-3.709,6.729-3.709c4.911,0,8.594,3.211,8.594,10.11V46.304z"
+                />
+              </g>
+            </svg>
+          </a>
+        </div>
+        <p>@ 2024 Yiru Zhou. All rights reserved.</p>
+      </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <script src="js/scripts.js"></script>
-</body>
-
+  </body>
 </html>
