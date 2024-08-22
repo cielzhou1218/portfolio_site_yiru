@@ -36,7 +36,7 @@ header {
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 2px;
+  top: 40px;
   font-size: 20px;
   padding-right: 0;
 }
@@ -178,7 +178,8 @@ a:active {
 #yz-logo {
   width: 100px;
   height: 100px;
-  max-width: 150px;
+  max-width: 100px;
+  padding: 20px;
 }
 
 #work.animation {
@@ -275,7 +276,7 @@ a:active {
 }
 
 .cloud-back {
-  animation: 34s cloud-move-reverse infinte alternate linear;
+  animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
 [class*="col-"] {
